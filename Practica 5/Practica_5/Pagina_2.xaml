@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica_5.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="DATOS PERSONALES" FontSize="Large"/>
+                    <Label Text="Nombre:" />
+                    <Entry x:Name="txtNombre"/>
+                    <Label Text="Apellidos:" />
+                    <Entry x:Name="txtApellidos"/>
+                    <Label Text="Direccion" />
+                    <Entry x:Name="txtDireccion"/>
+                    <Label Text="telefono" />
+                    <Entry x:Name="txttelefono"/>
+                    <Label Text="DATOS ESCOLARES" FontSize="Large"/>
+                    <Label Text="Carrera" />
+                    <Entry x:Name="txtcarrera"/>
+                    <Label Text="semestre"/>
+                    <Entry x:Name="txtsemestre"/>
+                    <Label Text="matricula"/>
+                    <Entry x:Name="txtmatricula"/>
+                    <Label Text="DATOS SOCIALES" FontSize="Large"/>
+                    <Label Text="correo"/>
+                    <Entry x:Name="txtcorreo"/>
+                    <Label Text="github"/>
+                    <Entry x:Name="txtgithub"/>
+                    <Button x:Name="btnObtener"  Text="Recolectar Datos"/>
+                </StackLayout>
+            </ScrollView>
+            <Button x:Name="btnPag3" Text="Ir a Calculadora" FontSize="Large" Clicked="btnPag3_Clicked" TextColor="White" BackgroundColor="DarkGray"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

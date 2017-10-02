@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica_5.Page3">
+    <ContentPage.Content>
+        <Grid x:Name="controlGrid" RowSpacing="1" ColumnSpacing="1" BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label x:Name="r" Text="" Grid.Row="0" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="White" BackgroundColor="Black"
+        FontSize="60" Grid.ColumnSpan="4" />
+            <Button x:Name="Borra" Text = "C" Grid.Row="1" Grid.Column="0" TextColor="White" BackgroundColor="DarkRed" Clicked="Borra_Clicked"/>
+            <Button x:Name="bor" Text = "AC" Grid.Row="1" Grid.Column="1" TextColor="White"  BackgroundColor="DarkRed" Clicked="bo_Clicked"/>
+            <Button x:Name="porciento" Text = "%" Grid.Row="1" Grid.Column="2"  TextColor="White"  BackgroundColor= "DarkGoldenrod" Clicked="porciento_Clicked"/>
+            <Button x:Name="division" Text = "/" Grid.Row="1" Grid.Column="3" TextColor="White" BackgroundColor="DarkGoldenrod" Clicked="division_Clicked"/>
+            <Button x:Name="siete" Text = "7" Grid.Row="2" Grid.Column="0"  TextColor="White" BackgroundColor="DarkGreen" Clicked="siete_Clicked"/>
+            <Button x:Name="ocho" Text = "8" Grid.Row="2" Grid.Column="1" TextColor="White" BackgroundColor="DarkGreen" Clicked="ocho_Clicked"/>
+            <Button x:Name="nueve" Text = "9" Grid.Row="2" Grid.Column="2" TextColor="White" BackgroundColor="DarkGreen" Clicked="nueve_Clicked"/>
+            <Button x:Name="multi" Text = "X" Grid.Row="2" Grid.Column="3"  TextColor="White" BackgroundColor="DarkGoldenrod" Clicked="multi_Clicked"/>
+            <Button x:Name="cuatro" Text = "4" Grid.Row="3" Grid.Column="0" TextColor="White"  BackgroundColor="DarkGreen" Clicked="cuatro_Clicked"/>
+            <Button x:Name="cinco" Text = "5" Grid.Row="3" Grid.Column="1" TextColor="White"  BackgroundColor="DarkGreen" Clicked="cinco_Clicked"/>
+            <Button x:Name="seis" Text = "6" Grid.Row="3" Grid.Column="2"  TextColor="White" BackgroundColor="DarkGreen" Clicked="seis_Clicked"/>
+            <Button x:Name="menos" Text = "-" Grid.Row="3" Grid.Column="3" TextColor="White" BackgroundColor="DarkGoldenrod" Clicked="menos_Clicked"/>
+            <Button x:Name="uno" Text = "1" Grid.Row="4" Grid.Column="0" TextColor="White" BackgroundColor="DarkGreen" Clicked="uno_Clicked"/>
+            <Button x:Name="dos" Text = "2" Grid.Row="4" Grid.Column="1" TextColor="White" BackgroundColor="DarkGreen" Clicked="dos_Clicked"/>
+            <Button x:Name="tres" Text = "3" Grid.Row="4" Grid.Column="2" TextColor="White" BackgroundColor="DarkGreen" Clicked="tres_Clicked"/>
+            <Button x:Name="mas" Text = "+" Grid.Row="4" Grid.Column="3" TextColor="White" BackgroundColor="DarkGoldenrod" Clicked="mas_Clicked"/>
+            <Button x:Name="cero" Text = "0" Grid.ColumnSpan="2" Grid.Row="5" TextColor="White" Grid.Column="0" BackgroundColor="DarkGreen" Clicked="cero_Clicked"/>
+            <Button x:Name="punto" Text = "." Grid.Row="5" Grid.Column="2" TextColor="White" BackgroundColor="DarkGoldenrod" Clicked="punto_Clicked"/>
+            <Button x:Name="igual" Text = "=" Grid.Row="5" Grid.Column="3" TextColor="White" BackgroundColor="DarkRed"  Clicked="igual_Clicked"/>
+            <Button x:Name="btnPag4" Text="Menu Principal" Grid.Row="6" Grid.ColumnSpan="4" Clicked="btnPag4_Clicked" TextColor="White" BackgroundColor="DarkGray"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
